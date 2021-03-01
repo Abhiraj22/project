@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+ 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>My Mini project</title>
+<
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/all.min.css" />
+     <link rel="stylesheet" href="css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="slick/slick.css"/>    
+    <link rel="stylesheet" href="slick/slick-theme.css"/>    
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
+    <style>
+      .mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.8; }
+/*a{*/
+  a {
+  color: red;
+}
+h2,h3{
+  color: rgb(32,32,32); 
+}
+  /*background-color: transparent;
+  text-decoration: none;
+}*/
+
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden; }
+
+.mfp-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 8px;
+  box-sizing: border-box; }
+
+.mfp-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.mfp-align-top .mfp-container:before {
+  display: none; }
+
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045; }
+
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+  width: 100%;
+  cursor: auto; }
+
+.mfp-ajax-cur {
+  cursor: progress; }
+
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out; }
+
+
+.mfp-auto-cursor .mfp-content {
+  cursor: auto; }
+
+.mfp-close,
+.mfp-arrow,
+.mfp-preloader,
+.mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+.mfp-loading.mfp-figure {
+  display: none; }
+
+.mfp-hide {
+  display: none !important; }
+
+.mfp-preloader {
+  color: #CCC;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044; }*/
+  .mfp-preloader a {
+    color: #CCC; }
+    .mfp-preloader a:hover {
+      color: #FFF; }
+
+.mfp-s-ready .mfp-preloader {
+  display: none; }
+
+.mfp-s-error .mfp-content {
+  display: none; }
+
+button.mfp-close,
+button.mfp-arrow {
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  box-shadow: none;
+  touch-action: manipulation; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }*/
+
+.mfp-close {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.65;
+  padding: 0 0 18px 10px;
+  color: #FFF;
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Baskerville, monospace; }
+  .mfp-close:hover,*/
+  .mfp-close:focus {
+    opacity: 1; }
+  .mfp-close:active {
+    top: 1px; }
+
+.mfp-close-btn-in .mfp-close {
+  color: #333; }
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  color: #FFF;
+  right: -6px;
+  text-align: right;
+  padding-right: 6px;
+  width: 100%; }*/
+
+.mfp-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #CCC;
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap; }
+*/
+.mfp-arrow {
+  position: absolute;
+  opacity: 0.65;
+  margin: 0;
+  top: 50%;
+  margin-top: -55px;
+  padding: 0;
+  width: 90px;
+  height: 110px;
+  -webkit-tap-highlight-color: transparent; }
+  .mfp-arrow:active {
+    margin-top: -54px; }
+  .mfp-arrow:hover,
+  .mfp-arrow:focus {
+    opacity: 1; }*/
+  .mfp-arrow:before,
+  .mfp-arrow:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 35px;
+    margin-left: 35px;
+    border: medium inset transparent; }*/
+  .mfp-arrow:after {
+    border-top-width: 13px;
+    border-bottom-width: 13px;
+    top: 8px; }
+  .mfp-arrow:before {
+    border-top-width: 21px;
+    border-bottom-width: 21px;
+    opacity: 0.7; }
+
+.mfp-arrow-left {
+  left: 0; }
+  .mfp-arrow-left:after {
+    border-right: 17px solid #FFF;
+    margin-left: 31px; }
+  .mfp-arrow-left:before {
+    margin-left: 25px;
+    border-right: 27px solid #3F3F3F; }
+*/
+
+.mfp-arrow-right {
+  right: 0; }
+  .mfp-arrow-right:after {
+    border-left: 17px solid #FFF;
+    margin-left: 39px; }
+  .mfp-arrow-right:before {
+    border-left: 27px solid #3F3F3F; }
+
+.mfp-iframe-holder {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .mfp-iframe-holder .mfp-content {
+    line-height: 0;
+    width: 100%;
+    max-width: 900px; }
+  .mfp-iframe-holder .mfp-close {
+    top: -40px; }
+
+.mfp-iframe-scaler {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%; }
+  .mfp-iframe-scaler iframe {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: #000; }
+
+
+img.mfp-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  margin: 0 auto; }
+
+ The shadow behind the image 
+.mfp-figure {
+  line-height: 0; }
+  .mfp-figure:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 40px;
+    bottom: 40px;
+    display: block;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: #444; }
+  .mfp-figure small {
+    color: #BDBDBD;
+    display: block;
+    font-size: 12px;
+    line-height: 14px; }
+  .mfp-figure figure {
+    margin: 0; }
+
+.mfp-bottom-bar {
+  margin-top: -36px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  cursor: auto; }
+
+.mfp-title {
+  text-align: left;
+  line-height: 18px;
+  color: #F3F3F3;
+  word-wrap: break-word;
+  padding-right: 36px; }
+
+.mfp-image-holder .mfp-content {
+  max-width: 100%; }
+
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  cursor: pointer; }
+
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  *
+       * Remove all paddings around the image on small screen
+       
+  .mfp-img-mobile .mfp-image-holder {
+    padding-left: 0;
+    padding-right: 0; }
+  .mfp-img-mobile img.mfp-img {
+    padding: 0; }
+  .mfp-img-mobile .mfp-figure:after {
+    top: 0;
+    bottom: 0; }
+  .mfp-img-mobile .mfp-figure small {
+    display: inline;
+    margin-left: 5px; }
+  .mfp-img-mobile .mfp-bottom-bar {
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    margin: 0;
+    top: auto;
+    padding: 3px 5px;
+    position: fixed;
+    box-sizing: border-box; }
+    .mfp-img-mobile .mfp-bottom-bar:empty {
+      padding: 0; }
+  .mfp-img-mobile .mfp-counter {
+    right: 5px;
+    top: 3px; }
+  .mfp-img-mobile .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    text-align: center;
+    padding: 0; } }
+
+@media all and (max-width: 900px) {
+  .mfp-arrow {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75); }
+  .mfp-arrow-left {
+    -webkit-transform-origin: 0;
+    transform-origin: 0; }
+  .mfp-arrow-right {
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%; }
+  .mfp-container {
+    padding-left: 6px;
+    padding-right: 6px; } }
+
+      body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #707172;
+  background-color: #666;
+}
+
+p {
+  line-height: 2;
+}
+
+/*a {
+  transition: all 0.3s ease;
+}*/*/
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.small {
+  font-size: 0.95rem;
+}
+
+.tm-color-primary {
+  color: #069;
+}
+
+.tm-color-gray {
+  color: #333;
+}
+
+.tm-bg-black-transparent {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tm-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid white;
+}
+
+.tm-intro {
+  max-width: 500px;
+  width: 100%;
+  padding: 55px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.tm-section-title {
+  font-size: 1.6rem;
+}
+
+.parallax-window {
+  min-height: 662px;
+  background: transparent;
+}
+
+.tm-section {
+  /*display: flex;*/
+/*  align-items: center;*/
+  /*height: auto;*/
+  max-width: 1975px;
+  padding: 60px 60px;
+}
+
+
+
+
+
+.tm-brand-box {
+  box-sizing: content-box;
+  width: 100%;
+  max-width: 230px;
+  min-height: 160px;
+  color: white;
+  text-align: center;
+  margin: 60px auto 90px;
+ /* padding-bottom: 3%;*/
+}
+
+.tm-double-border-1,
+.tm-double-border-2 {
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.tm-double-border-2 {
+  top: 10px;
+  left: 10px;
+}
+
+.tm-border-gray {
+  border-color: #cdcecf;
+}
+
+
+
+.tm-brand {
+  padding: 20px;
+text-align: center;
+}
+
+.tm-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding-left: 70px;
+  padding-right: 70px;
+  width: 400px;
+  max-width: 400px;
+}
+
+
+.tm-sidebar {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.tm-sidebar::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+.tm-sidebar-sticky {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tm-section-wrap {
+  width: calc(100% - 400px);
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.tm-main-nav > li > a {
+  color: white;
+}
+
+.tm-main-nav {
+  margin-bottom: 760px;
+}
+.tm-white-rect {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+}
+.nav-link .tm-white-rect {
+  opacity: 0;
+  transition: all 0.3s ease;
+}*/
+
+.tm-img-wrap a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  width: 240px;
+  height: 120px;
+}
+
+
+.tm-btn-primary {
+  color: #707172;
+  border-bottom: 1px solid #cdcecf;
+  padding: 10px 18px;
+  position: relative;
+}
+
+.tm-btn-primary:hover,
+.tm-btn-primary:active {
+  color: #fff;
+  background-color: #999;
+}
+
+.tm-btn-primary:after {
+  width: 100%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  background: #cdcecf;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.tm-btn-primary:hover:after,
+.tm-btn-primary:active:after {
+  height: 100%;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 1600px) {
+  .tm-sidebar {
+    width: 30%;
+    max-width: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  
+
+  .tm-section-wrap {
+    width: 70%;
+  }
+
+  .tm-img-wrap a {
+    width: 100%;
+    height: 100%;
+  }
+
+
+.navbar-toggler {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .tm-bg-black-transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+ 
+
+
+  .tm-sidebar {
+    width: 250px;
+    left: -250px;
+    padding: 15px;
+    transition: all 0.3s ease;
+  }
+
+ p{
+  color:rgb(30,30,30);
+ }
+a: link {
+  color: red;
+}
+
+
+a:visited{
+  color:green;
+}
+
+
+a: hover {
+  color: hotpink;
+}
+h2{
+  color:black;
+ }
+ h3{
+color:black;
+}
+h4{
+  color:rgb(30,30,30);
+}
+a:hover{
+    color: aquamarine;
+}
+nav a:hover{
+    color: tomato;
+}
+a:link {color:#ff0000;}
+a:visited {color:#0000ff;}
+a:hover {color:#ffcc00;}
+p{
+  color:rgb(30,30,30);
+}
+    </style> 
+
+
+  </head>
+  <body>
+    <main class="container-fluid">
+      <div class="row">        
+          <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-sidebar-sticky">
+              <div class="tm-brand-box">
+                <div class="tm-double-border-1">
+                  <div class="tm-double-border-2">
+                    <h1 class="tm-brand text-uppercase">CODEGUIDE</h1>
+                  </div>
+                </div>
+              </div>
+
+              <ul id="tmMainNav" class="nav flex-column text-uppercase text-right tm-main-nav">
+                <li class="nav-item">
+                  <a href="#intro" class="nav-link active"> 
+                    <span class="d-inline-block mr-3">Basic Languages</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about" class="nav-link">
+                    <span class="d-inline-block mr-3">DS & Algo</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#work" class="nav-link">
+                    <span class="d-inline-block mr-3">Web Development</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#clients" class="nav-link">
+                    <span class="d-inline-block mr-3">Android Development</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                
+              </ul>
+              </footer>
+            </div>
+          </nav>
+          
+          <main role="main" class="ml-sm-auto col-12">
+          
+              <div class="tm-section-wrap">
+                <section id="intro" class="tm-section">
+                    <div class="tm-bg-white-transparent tm-intro">
+                         <h2 class="tm-section-title mb-5 text-uppercase tm-color-primary"><u>WELCOME TO CODEGUIDE</u></h2> 
+                         <h1 class="tm-section-title mb-5 text-uppercase tm-color-primary"> JAVA</h1>
+                        <p class="tm-color-gray">
+                          <b>Java</b> is one of the most popular and widely used programming language.Java has been one of the most popular programming language for many years.Java is Object Oriented. However it is not considered as pure object oriented as it provides support for primitive data types (like int, char, etc).
+                        </p>
+                        
+                        <img src="https://javaextreme.files.wordpress.com/2013/05/java-logo.jpg" alt="W3Schools.com" width="200px" length="150px">
+                      
+                        <br>
+                        <br>
+                        <ol>
+                          <li>
+                       <p> <a href="https://www.guru99.com/install-eclipse-java.html"target="_blank"><u>DOWNLOAD IDE</u></a></p>
+                      </li>
+                     
+                      
+                      
+                     <li>
+                        <a href="https://www.geeksforgeeks.org/java/"target="_blank"><u>Notes For JAVA</u></a>
+                       </li>
+                        <br>
+                        <br>
+</ol>
+                      <!-- <video src="https://www.bing.com/videos/search?q=java&&view=detail&mid=09448E1207F624BBB08209448E1207F624BBB082&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Djava%26FORM%3DHDRSC3" controls width ="200"  poster="https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-large.3x2.jpg"></video> -->
+                     <!--  <iframe  width="460" height="315" src="https://www.youtube.com/embed/aQatrXw0njs" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe> -->
+                       <a href="https://www.bing.com/videos/search?view=detail&mid=BC1983A275A69CDAEFE6BC1983A275A69CDAEFE6&q=java++by+Apni+kaksha&shtp=GetUrl&shid=b8ff6f67-2481-4083-abda-f50dc263ee7b&shtk=VGhlIFBsYWNlbWVudCBDb3Vyc2UgOiBKYXZhIERhdGEgU3RydWN0dXJlcyBBbGdvcml0aG1z&shdk=I2phdmEgI2NvbGxlZ2VQbGFjZW1lbnQ%3D&shhk=PlGYj4kYGhDVSRTJWFtAQNlDt7GduYavXMR6lT1A91Y%3D&form=VDSHOT&shth=OSH.cszKywLj9Vzq3RNN6nH5iw" target="_blank">
+                          <p><u>Click Below</u></p>
+                         <!--  <iframe frameborder="2"> -->
+<img src="https://i.ytimg.com/vi/nKrkaoAk7ZE/maxresdefault.jpg" alt="Hackerrank"  style="width:460px;height:315px;">
+                      <p > <u> Platform for Practices</u></p>
+                      <ol>
+                      <li>
+                      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" width="150px" height="170px"> -->
+                    <!--   <a href="https://www.hackerrank.com" target="_blank"><u>Hackerrank</u></a> -->
+                      <a href="https://www.hackerrank.com" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="Hackerrank"  style="width:142px;height:142px;">
+</a>
+</li>
+<br>
+<br>
+<li>
+ <a href=" https://www.hackerearth.com" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/HackerEarth_logo.png" alt="Hackerearth" style="width:90px;height:90px;">
+</a>
+</li>
+<br>
+<br>
+<li>
+<a href="https://www.interviewbit.com/users/sign_in" target="_blank">
+<img src="https://www.digitalfirstmagazine.com/wp-content/uploads/2020/05/InterviewBit_Logo_800x480.jpg" alt="Hackerrank" class="center" style="width:142px;height:142px;">
+</a>
+
+                      </li>
+                      </ol>
+                      <br>
+                      <hr>
+                      <ul>
+                        <li>
+                      <a href="https://www.geeksforgeeks.org/computer-science-projects/#Java" target="_blank">
+                       <u> Projects</u>
+
+                      </a>
+                      </li>
+                      </ul>
+                      <hr>
+                         <h1 class="tm-section-title mb-5 text-uppercase tm-color-primary"> C++</h1>
+                        <p class="tm-color-gray">
+
+                          <b>C++</b> is a general purpose programming language and widely used now a days for competitive programming. It has imperative, object-oriented and generic programming features. C++ runs on lots of platform like Windows, Linux, Unix, Mac etc.
+                        </p>
+                        <img src="https://0ebdc219a6018a0b4949-5cd5d2f3f64eaf0eb4e05aee819f5378.ssl.cf5.rackcdn.com/cpp.png" width="160px" height="160px"> 
+                        <br>
+                        <br>
+                        <ol>
+                          <li>
+                         <a href="https://turboc.me/download-turbo-c-file/"target="_blank"><u>TURBO C++</u></a>
+                      </li>
+                      <li>
+                         <a href="https://www.tutorialspoint.com/cplusplus/index.htm"target="_blank"><u>Notes For C++</u></a>
+                       </li>
+                       <br>
+                       <br>
+                      <!--  <iframe width="460" height="315" src="https://www.youtube.com/embed/z9bZufPHFLU" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <a href="https://www.youtube.com/embed/z9bZufPHFLU" target="_blank">
+                         <!--  <iframe frameborder="2"> -->
+                            <p><u>Click Below</u></p>
+<img src="https://i.ytimg.com/vi/z9bZufPHFLU/maxresdefault.jpg" alt="C++ Apna College"  style="width:460px;height:315px;">
+
+</a>
+                       <br>
+                       <br>
+                        <p > <u> Platform for Practices</u></p>
+                      <ol>
+                      <li>
+                      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" width="150px" height="170px"> -->
+                    <!--   <a href="https://www.hackerrank.com" target="_blank"><u>Hackerrank</u></a> -->
+                      <a href="https://www.hackerrank.com" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="Hackerrank"  style="width:142px;height:142px;">
+</a>
+</li>
+<br>
+<br>
+<li>
+ <a href=" https://www.hackerearth.com" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/HackerEarth_logo.png" alt="Hackerearth" style="width:90px;height:90px;">
+</a>
+</li>
+<br>
+<br>
+<li>
+<a href="https://www.interviewbit.com/users/sign_in" target="_blank">
+<img src="https://www.digitalfirstmagazine.com/wp-content/uploads/2020/05/InterviewBit_Logo_800x480.jpg" alt="Hackerrank" class="center" style="width:142px;height:142px;">
+</a>
+<br>
+<hr>
+ <ul>
+                        <li>
+                      <a href="https://www.geeksforgeeks.org/computer-science-projects/#Java" target="_blank">
+                       <u> Projects</u>
+
+                      </a>
+                      </li>
+                      </ul>
+                      <hr>
+                      <!-- /li>
+                      </ol> -->
+                      <br>
+                      <br>
+                        <h1 class="tm-section-title mb-5 text-uppercase tm-color-primary"> PYTHON</h1>
+                        <p class="tm-color-gray">
+                          <b>Python</b> is a high-level, general-purpose and a very popular programming language. Python programming language (latest Python 3) is being used in web development, Machine Learning applications, along with all cutting edge technology in Software Industry. Python Programming Language is very well suited for Beginners, also for experienced programmers with other programming languages like C++ and Java.</p>
+                        </p>
+                        <img src="https://howtodoinjava.com/wp-content/uploads/2016/08/python.png" width="160px" height="160px"> 
+                        <br>
+                        <br> 
+                        <ol>
+                          <li>
+                        <a href="https://www.python.org/downloads/"target="_blank"><u>DOWNLOAD Python</u></a>
+                      </li>
+                      <br>
+                      <li>
+                      <a href="https://www.sublimetext.com/3"target="_blank"><u> DOWNLOAD Editor </u></a>
+                      </li>
+                      <br>
+                      
+                     <li>
+                        <a href="https://www.geeksforgeeks.org/python-programming-language/"target="_blank"><u>Notes For PYTHON</u></a>
+                       </li>
+                       </ol>
+                        <br>
+                        <br>
+                       <!--  <iframe width="330" height="315" src="https://www.youtube.com/embed/KI2LkOKkuoI" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+ <a href="https://www.bing.com/videos/search?view=detail&mid=A2FD7744FD1E6E2B24B4A2FD7744FD1E6E2B24B4&q=python++by+love+babbar+cod+help&shtp=GetUrl&shid=fa0e988a-d646-465d-9dec-b935c853e691&shtk=W1BhcnQgMV0gUHl0aG9uIGluIDE1IFZpZGVvcyB8IEluc3RhbGxhdGlvbiB8IElERSB8IFJ1bm5pbmcgeW91ciBmaXJzdCBwcm9ncmFtIHwgSGluZGkgVHV0b3JpYWxz&shdk=W1BhcnQgMV0gUHl0aG9uIGluIDE1IFZpZGVvcyB8IEluc3RhbGxhdGlvbiB8IElERSB8IFJ1bm5pbmcgeW91ciBmaXJzdCBwcm9ncmFtIHwgSGluZGkgVHV0b3JpYWxzIERvd25sb2FkIFB5dGhvbiAtIGh0dHBzOi8vd3d3LnB5dGhvbi5vcmcvZG93bmxvYWRzLyBEb3dubG9hZCBTdWJsaW1lIFRleHQgLSBodHRwczovL3d3dy5zdWJsaW1ldGV4dC5jb20vMyBUb3BpY3MgQ292ZXJlZCBpbiB0aGUgVmlkZW8gLSAtIEluc3RhbGxpbmcgcHl0aG9uIGluIFdpbmRvd3MgMTAgLSBEb3dubG9hZGluZyB0aGUgSURFIChTdWJsaW1lIFRleHQpIC0gV3JpdGluZyB5b3VyIGZpcnN0IHB5dGhvbiBwcm9ncmFtIChIZWxsbyBXb3JsZCkgLSBSdW5uaW5nIHlvdXIgcHJvZ3JhbSB3aXRoIGNvbW1hbmQgbGluZSBpbnRlcmZhY2UuIE15IFNvY2lhbCBNZWRpYSAtIEluc3RhZ3JhbTpodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL2xvdmViYWJiYXIxLyBUd2l0dGVyOi4uLg%3D%3D&shhk=ZjzNnmDL9dIvkeJd2rb7Itj7pkvBuez%2Fz%2Bmeb4Ki4h0%3D&form=VDSHOT&shth=OSH.GE3lpKZMfJfRZqX9tG54Cw" alt="Hackerrank"  style="width:360px;height:215px;" target="_blank">
+    <p><u>Click Below</u></p>
+<img src="https://i.ytimg.com/vi/U-TRWphjzmg/maxresdefault.jpg" width="410px" height="315px">
+</a>
+
+<br>
+<br>
+<br>
+                       <br>
+                        <p ><u> Platform for Practices</u></p>
+                      <ol>
+                      <li>
+                      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" width="150px" height="170px"> -->
+                    <!--   <a href="https://www.hackerrank.com" target="_blank"><u>Hackerrank</u></a> -->
+                      <a href="https://www.hackerrank.com" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="Hackerrank"  style="width:142px;height:142px;">
+</a>
+</li>
+<br>
+<br>
+<li>
+ <a href=" https://www.hackerearth.com" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/HackerEarth_logo.png" alt="Hackerearth" style="width:90px;height:90px;">
+</a>
+</li>
+<br>
+<br>
+<li>
+<a href="https://www.interviewbit.com/users/sign_in" target="_blank">
+<img src="https://www.digitalfirstmagazine.com/wp-content/uploads/2020/05/InterviewBit_Logo_800x480.jpg" alt="Hackerrank" class="center" style="width:142px;height:142px;">
+</a>
+<br>
+<br>
+<hr>
+ <ul>
+                        <li>
+                      <a href="https://www.geeksforgeeks.org/computer-science-projects/#Java" target="_blank">
+                       <u> Projects</u>
+
+                      </a>
+                      </li>
+                      </ul>
+                      <hr>
+                        <h1 class="tm-section-title mb-5 text-uppercase tm-color-primary"> C language</h1>
+                        <p class="tm-color-gray">
+                          <b>C</b> is a procedural programming language. It was initially developed by Dennis Ritchie as a system programming language to write operating system. The main features of C language include low-level access to memory, simple set of keywords, and clean style, these features make C language suitable for system programming like operating system or compiler development.</p>
+                        </p>
+<img src="https://www.techbaz.org/Course/img/c-logo.png" width="160px" height="160px">
+<!--  <img src="https://howtodoinjava.com/wp-content/uploads/2016/08/python.png" width="160px" height="160px">  -->
+                        <br>
+                        <br> 
+                        <ol>
+                          <li>
+                        <a href="https://www.onlinegdb.com/online_c_compiler"target="_blank"><u>Online Compiler</u></a>
+                      </li>
+                      <br>
+                      <li>
+                      <a href="https://www.codeblocks.org/downloads/"target="_blank"><u> DOWNLOAD Editor </u></a>
+                      </li>
+                      <br>
+                      
+                     <li>
+                        <a href="https://www.geeksforgeeks.org/c-programming-language/"target="_blank"><u>C language Notes</u></a>
+                       </li>
+                       </ol>
+                     
+                      
+                      <!--  <iframe width="400" height="315" src="https://www.youtube.com/embed/Bjzfag1zZPg" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                       <a href=" https://www.bing.com/videos/search?view=detail&mid=A48CA873428BF31A995EA48CA873428BF31A995E&q=c+language+youtube+saurabh+shukla&shtp=GetUrl&shid=9ca4dbbd-1bea-4747-a357-7d4254545925&shtk=TGVjdHVyZSAxIEludHJvZHVjdGlvbiB0byBDIExhbmd1YWdlIFBhcnQtMSBIaW5kaSB8IE15U2lyRy5jb20%3D&shdk=QyBMYW5ndWFnZSBieSBTYXVyYWJoIFNodWtsYSBTaXIgaW4gSGluZGkgaHR0cHM6Ly9wcmVtaXVtLm15c2lyZy5jb20gVmlzaXQgaHR0cDovL3NhdXJhYmhzaHVrbGFjbGFzc2VzLmNvbSB0byBqb2luIGNvYWNoaW5nIGluIEJIT1BBTCBWaXNpdCB3d3cubXlzaXJnLmNvbSBmb3IgYWxsIEZSRUUgdmlkZW9zIE15U2lyRyBJbnN0YWdyYW0gaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9teXNpcmcvIFRoZSBjb3Vyc2UgaXMgZGVzaWduZWQgZm9yIGJlZ2lubmVycywgYnV0IGNvdmVycyBtb3N0IG9mIHRoZSB0eXBpY2FsIGNvbmNlcHRzLiBZb3Ugd2lsbCBsZWFybiBmcm9tIHRoZSB2ZXJ5IGJhc2ljIGJ1dCByZWFjaCB0byBhIG1hc3RlciBsZXZlbCBwcm9ncmFtbWVyLiBBbGwgTGVjdHVyZXMgYXJlIGluIEhpbmRpLiBJZiB5b3UgbGlrZSB0aGlzIHZpZGVvIHBsZWFzZSBsaWtlIGFuZCBzaGFyZSBpdC4gRG9uJ3QgZm9yZ2V0IHRvIHN1YnNjcmliZSB0aGUgY2hhbm5lbC4%3D&shhk=UKTCdu4qOg2blDxN%2BYuJPVEJrwOKIVAXFSpWezI8rgA%3D&form=VDSHOT&shth=OSH.Z9pxuhPKFKjH7vAhoZDzuA" target="_blank">
+                        <br>
+                        <p><u>Click Below</u></p>
+
+<img src="https://prod-discovery.edx-cdn.org/media/course/image/af601b97-7522-4a56-b5b0-478e0a6398aa-1014c395f879.small.jpg" alt="Hackerearth" style="width:290px;height:190px;">
+</a>
+<br>
+<br>
+<hr>
+                      <ul>
+                        <li>
+                      <a href="https://www.geeksforgeeks.org/computer-science-projects/#Java" target="_blank">
+                       <u> Projects</u>
+
+                      </a>
+                      </li>
+                      </ul>
+                      <hr>
+                      <br>
+                      <br>
+                    
+                    </div>              
+                </section>
+            </div>            
+          </div>
+
+           <div class="tm-section-wrap bg-white">
+            <section id="about" class=" tm-section">
+              <div class="col-xl-12"> 
+               
+                      <h1 class="tm-section-title mb-5 text-uppercase tm-color-primary"> Data Structures & Algorithm</h1>
+                       
+                       <img src="https://cdn-images-1.medium.com/max/1200/1*9QRFQdpO2f59GsN2KsE9XA.png" width="500px" height="200px">
+                        <p class="tm-color-gray">
+                       Data Structures are the programmatic way of storing data so that data can be used efficiently. Almost every enterprise application uses various types of data structures in one or the other way. This tutorial will give you a great understanding on Data Structures needed to understand the complexity of enterprise level applications and need of algorithms, and data structures.
+                        </p> 
+                        
+                       <h2>  <u>Why to Learn Data Structure and Algorithms?</u></h2>
+                       <p class="tm-color-gray">As applications are getting complex and data rich, there are three common problems that applications face now-a-days.</p>
+                       <p class="tm-color-gray"><b><u>Data Search</u></b> − Consider an inventory of 1 million(106) items of a store. If the application is to search an item, it has to search an item in 1 million(106) items every time slowing down the search. As data grows, search will become slower.</p>
+                       <p class="tm-color-gray"><b><u>Processor speed</u></b> − Processor speed although being very high, falls limited if the data grows to billion records.</p>
+                       <p class="tm-color-gray"><b><u>Multiple requests</u></b> − As thousands of users can search data simultaneously on a web server, even the fast server fails while searching the data.</p>
+                       
+                        <iframe width="460" height="315" src="https://www.youtube.com/embed/8uexgUgbQVw" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div> 
+                          <h3>As You hava already installed the editor & learned a language, Now its time to practice Data Structures and Algorithm</h3>
+<br>
+
+                   <h3><u>Data Structures and Algorithm in JAVA</u></h3>
+                   <a href="https://youtu.be/lxja8wBwN0k" target="_blank">
+<img src="http://www.informit.com/ShowCover.aspx?isbn=0131469142" alt="Java DS & Algo"  style="width:242px;height:242px;">
+</a>
+               <br>
+               <br>
+                <h3><u>Data Structures and Algorithm in C++</u></h3>
+                   <a href="https://www.bing.com/videos/search?view=detail&mid=A07CEDD98664789AF8A2A07CEDD98664789AF8A2&q=Data+structure+and+algorithm+in+c+++logo&shtp=GetUrl&shid=84e91ae9-8be7-4840-b8b0-f7aebac40d5e&shtk=Mi4yIElucHV0L091dHB1dCBpbiBDIHwgRGF0YSBTdHJ1Y3R1cmVzIGFuZCBBbGdvcml0aG0gQ291cnNlIGluIEMgfCBMZWN0dXJlIDIuMg%3D%3D&shdk=QXBuaSBLYWtzaGE6IGh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vYXBuaWtha3NoYS8gTGluayB0byB0aGUgTm90ZXMgb2YgdGhpcyB2aWRlbyBhbmQgZXh0cmEgcXVlc3Rpb25zOiBodHRwczovL2RyaXZlLmdvb2dsZS5jb20vZmlsZS9kLzFrM0ZoZU1KTHZWdTJZQmt5U0JVOURLWEZXR25lMjRlZS92aWV3P3VzcD1zaGFyaW5n&shhk=9JECJhC33DjjCfzgQtSEEQYphbHdJOq%2FwtzptSsuLig%3D&form=VDSHOT&shth=OSH.ydPuKBs%252FkCDSIGbI1UJhFQ" target="_blank">
+<img src="https://th.bing.com/th/id/Rb6828ae7d055f037db07331f3ac56182?rik=o3HG1VqobeWhhw&riu=http%3a%2f%2fcovers1.booksamillion.com%2fcovers%2fbam%2f1%2f13%2f360%2f842%2f1133608426.jpg&ehk=dfwiP23fMyk41HY1TXIjgIQOTBTYKeQgzq9UEwlQ2BA%3d&risl=&pid=ImgRaw" alt="C++ DS & Algo"  style="width:242px;height:242px;">
+</a>
+        <br>
+        <br>     
+            <h3><u>Data Structures and Algorithm in Python</u></h3>
+               <a href="https://www.bing.com/videos/search?view=detail&mid=8CB7DC3AD372A78C8B538CB7DC3AD372A78C8B53&q=Data+structure+and+algorithm+in+Python&shtp=GetUrl&shid=8bb91240-2707-41cf-b322-8c5602a9bca7&shtk=RGF0YSBTdHJ1Y3R1cmVzIEFuZCBBbGdvcml0aG1zIGluIFB5dGhvbiAtIFB5dGhvbiBEYXRhIFN0cnVjdHVyZXMgRnVsbCBUdXRvcmlhbCAoMjAyMCk%3D&shdk=UHl0aG9uIERhdGEgU3RydWN0dXJlcyBmdWxsIFR1dG9yaWFsIGFuZCBEYXRhIFN0cnVjdHVyZXMgYW5kIEFsZ29yaXRobXMgaW4gMiBob3Vycy4gTGVhcm50aGUgbW9zdCBjb21tb24gZGF0YSBzdHJ1Y3R1cmVzIGluIHRoaXMgY291cnNlIGZyb20uIFRoaXMgY291cnNlIHRlYWNoZXMgZGF0YSBzdHJ1Y3R1cmVzIHRvIGJlZ2lubmVycyB1c2luZyBoaWdoIHF1YWxpdHkgYW5pbWF0aW9ucyB0byByZXByZXNlbnQgdGhlIGRhdGEgc3RydWN0dXJlcyB2aXN1YWxseS4gRnVsbCBQeXRob24gQ291cnNlIHdpdGggc3BlY2lhbCBkaXNjb3VudDogaHR0cHM6Ly93d3cudWRlbXkuY29tL2NvdXJzZS9weXRob24tZm9yLWFic29sdXRlLWJlZ2lubmVyLXB5dGhvbi0zLz9yZWZlcnJhbENvZGU9OThEQTgwREMxNjMxQjY0OEIzM0EgWW91IHdpbGwgbGVhcm4gaG93IHRvIGNvZGUgdmFyaW91cyBkYXRhIHN0cnVjdHVyZXMgdG9nZXRoZXIgd2l0aCBzaW1wbGUgdG8gZm9sbG93Li4u&shhk=aiflE4zx8TZ3As4UWJ8%2FQn8W7x6hUpD%2Fl6nNngE6%2F10%3D&form=VDSHOT&shth=OSH.949pWISmOmrHaz6o33z56A" target="_blank">
+<img src="https://www.digitalvidya.com/wp-content/uploads/2018/11/DATA-STRUCTURES-AND-ALGORITHMS-IN-P.png" alt="C++ DS & Algo"  style="width:242px;height:242px;">
+</a>
+<br>
+<br>
+ <h3><u>For Notes Of Data Structures & Algorithm visit.</u></h3>
+ <a href=" https://www.geeksforgeeks.org/data-structures/" target="_blank">
+<img src="https://www.geeksforgeeks.org/wp-content/uploads/GeeksforGeeksLogoHeader.png" alt="Hackerearth" style="width:290px;height:190px;">
+</a>
+<br>
+<br>
+<h3><u>For Practice use above mentioned Platforms.</u></h3>
+
+            </section>
+          </div>
+           <div class="tm-section-wrap bg-white">
+            <section id="work" class=" tm-section">
+              <div class="col-xl-12"> 
+               <h1 class="tm-section-title mb-5 text-uppercase tm-color-primary"> Web Development</h1>
+                      <img src="https://simpleprogrammer.com/wp-content/uploads/2016/11/What-Is-Web-Development.png" width="500px" height="200px">
+                      <h4><b><u>Step 1:</u></b></h4>
+                        <p class="tm-color-gray">
+                        Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.
+
+Responsive Web Design is used in all types of modern web development.
+
+ECMAScript 5 (JavaScript 5) is supported in all modern browsers. Take a good look at it, especially the new array functions.
+                        </p> 
+                        <h4><b><u>Step 2:</u></b></h4>
+                          <p class="tm-color-gray">
+                              When you feel comfortable with HTML and CSS, it is time to dig deeper.
+
+You should learn how to use Maps, Fonts and Icons in HTML.
+
+On the JavaScript side, you should learn how to access the HTML DOM.
+
+You should also learn how to use AJAX and JSON for making server requests.
+</p>
+<h4><b><u>Step 3:</u></b></h4>
+   <p class="tm-color-gray">
+    Now it is time to look at some Frameworks.
+
+On the CSS side you should choose a framework for reponsive web design:
+Bootstrap  /  Material Design  /  W3.CSS
+
+On the JavaScript side you should learn at least one modern framework:
+React.js  /  Angular.js  /  Vue.js   /  W3.JS
+
+Maybe the popularity of jQuery has passed the top, but it is still the most used JavaScript framework.</p>
+<br>
+<br>
+<h3><b><u>RoadMap to Web Development --></u><b></h3>
+  <br>
+  <img src="https://qph.fs.quoracdn.net/main-qimg-15c39790400e6fea7290739a5a82d13b" width="490px" height="200px">
+  <br>
+  <br>
+  <iframe width="460" height="315" src="https://www.youtube.com/embed/GLk7-imcjiI" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <br>
+  <h3><u>For Notes of FrontEnd Languages,Please Visit the below Mentioned websites</u></h3>
+<br>
+<a href=" https://www.w3schools.com" target="_blank">
+<img src="https://recomhub.com/blog/wp-content/uploads/2015/03/w3schools-logo.jpg" alt="W3Schools" style="width:290px;height:190px;">
+</a>
+<br>
+<br>
+<a href=" https://www.linkedin.com/learning/paths/become-a-full-stack-web-developer" target="_blank">
+<img src="https://smallbiztrends.com/wp-content/uploads/2017/03/linkedin-learning.png" alt="W3Schools" style="width:290px;height:190px;">
+</a>
+<h2><u>Best Videos Lectures available--> </u></h2>
+<h3>Visit</h3>
+
+<a href=" https://www.bing.com/videos/search?view=detail&mid=DA875AA73833DF9F935DDA875AA73833DF9F935D&q=web+development+youtube&shtp=GetUrl&shid=25746ba3-6883-4c10-97ad-3dc79c352f08&shtk=SW50cm9kdWN0aW9uIHRvIFdlYiBEZXZlbG9wbWVudCB8IFdvcmxkJ3MgbW9zdCBwcmVtaXVtIFdlYiBEZXZlbG9wbWVudCBDb3Vyc2UgfCBMZWN0dXJlIDAgKFJldXBsb2FkKQ%3D%3D&shdk=V2ViIERldmVsb3BtZW50IENvdXJzZSBQbGF5bGlzdDogaHR0cHM6Ly93d3cueW91dHViZS5jb20vcGxheWxpc3Q%2FbGlzdD1QTGZxTWhUV05CVGUzSDZjOU9HWGI1XzZ3Y2MxTWNhNTJuIENvbXBsZXRlIEMrKyBQbGFjZW1lbnQgQ291cnNlIChEYXRhIFN0cnVjdHVyZXMrQWxnb3JpdGhtKSA6aHR0cHM6Ly93d3cueW91dHViZS5jb20vcGxheWxpc3Q%2FbGlzdD1QTGZxTWhUV05CVGUwYjJuTTZKSFZDbkFraFFSR2laTVNKIFRlbGVncmFtOiBodHRwczovL3QubWUvYXBuaWtha3NoYW9mZmljaWFsIEluc3RhZ3JhbTogaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9kaGF0dGFyd2FsYW1hbi8gTm90ZXMgb2YgdGhpcyBMZWN0dXJlOg%3D%3D&shhk=rP6a6AQE6FvCoRImH4lvCKduAMM1D95Kk1XFyeE75Bs%3D&form=VDSHOT&shth=OSH.LvTQhqbnPsTb1iWnqgNlvg" target="_blank">
+<img src="https://gocsb.com/wp-content/uploads/2019/05/web-development-program.jpg" alt="W3Schools" style="width:290px;height:190px;">
+</a>
+<br>
+<hr>
+<a href="https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/">Projects based on Web development</a>
+<hr>
+</div>
+                     </section>
+          </div>
+             <div class="tm-section-wrap bg-white">
+            <section id="clients" class=" tm-section">
+              <div class="col-xl-12"> 
+       <div class="tm-gallery-wrap">
+                          <h2 class="tm-color-primary tm-section-title mb-4 ml-2">Android  Development</h2>
+                          <div class="tm-gallery">
+                            <div class="tm-gallery-item">                        
+                              <img src="https://s3-ap-southeast-1.amazonaws.com/blog.internshala.com/wp-content/uploads/2018/02/how-to-become-an-android-developer-672x336.jpg" width="500px" height="200px">
+                          <p class="tm-color-gray">
+                          The Android operating system is the largest installed base among various mobile platforms across the globe. Hundreds of millions of mobile devices are powered by Android in more than 190 countries of the world. It conquered around 75% of the global market share by the end of 2020, and this trend is growing bigger every other day. The company named Open Handset Alliance developed Android for the first time that is based on the modified version of the Linux kernel and other open-source software. Google sponsored the project at initial stages and in the year 2005, it acquired the whole company. In September 2008, the first Android-powered device launched in the market. Android dominates the mobile OS industry because of the long list of features it provides. It’s user-friendly, has huge community support, provides a greater extent of customization, and a large number of companies build Android-compatible smartphones. As a result, the market observes a sharp increase in the demand for developing Android mobile applications, and with that companies need smart developers with the right skill set. At first, the purpose of Android was thought of as a mobile operating system. However, with the advancement of code libraries and its popularity among developers of the divergent domain, Android becomes an absolute set of software for all devices like tablets, wearables, set-top boxes, smart TVs, notebooks, etc.</p>
+                         <!--  <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210102080732/androidosgfg.png" width="500px
+                          " height="250 px"> -->
+                         <!--  <h3 class="tm-color-primary tm-section-title mb-4 ml-2">For More Information:</h3> -->
+                         
+                         <iframe width="400" height="275" src="https://www.youtube.com/embed/VaMWsm6CFss" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         <br>
+                         <br>
+<a href="https://developer.android.com/studio" target="_blank">Download Android Studio</a>
+<br>
+<br>
+<a href="https://www.android.com/"target="_blank">Learn Android Basics</a>
+<br>
+<h3>Most Preffered Android Languages</h3>
+<ol>
+  <h4><li>JAVA</li></h4>
+  <br>
+  <a href="https://www.bing.com/videos/search?q=java+youtube+videos+anuj+bhaiya&&view=detail&mid=09448E1207F624BBB08209448E1207F624BBB082&&FORM=VRDGAR" target="_blank">
+  <img src="https://cdn.wccftech.com/wp-content/uploads/2015/09/javaAndroid.jpg" width="160px" height="150px">
+</a>
+  <br>
+  <h4><li>KOTLIN</li></h4>
+  <br>
+  <a href="https://youtu.be/mnkzx3TwbV8" target="_blank">
+  <img src="https://fossbytes.com/wp-content/uploads/2017/09/Kotlin-programming-language-course.png"  width="160px" height="160px">
+</a>
+  <br>
+  <h4><li>FLUTTER</li></h4>
+  <br>
+  <a href="https://www.bing.com/videos/search?view=detail&mid=C98023F10A9DF3C154F5C98023F10A9DF3C154F5&q=flutter+youtube+love+babbar+code+help&shtp=GetUrl&shid=50af185c-b3fd-4320-a753-ab318e884e7c&shtk=Rmx1dHRlciBJbnN0YWxsYXRpb24gJiBTZXR1cCB8fCA0R0IvOEdCIFJBTSDtoL7ttJQgfHwgRmx1dHRlciBTZXJpZXMgMjAyMCAsIEVwaXNvZGUgIzM%3D&shdk=TWFpbiBDaGFubmVsOiBodHRwczovL3d3dy55b3V0dWJlLmNvbS9jaGFubmVsL1VDUUhMeHhCRnJiZmRyazFqRjBtb1RwdyBUZWxlZ3JhbSBHcm91cDogQ29kZUhlbHAgOiBGbHV0dGVyIC0gV2VsY29tZSB0byBDb2RlSGVscCBGbHV0dGVyIERpc2N1c3Npb24gISEhIEluaXRpYXRpdmUgYnkgTG92ZSBCYWJiYXIg7aC97biBIGh0dHBzOi8vdC5tZS9jb2RlaGVscGZsdXR0ZXIgQ291cnNlIFN0cnVjdHVyZTogaHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xMmx1RklYVUotaFJtWFVmVVdzaXRPNnRTY3A3c0xmLUgvdmlldz91c3A9c2hhcmluZyBMb3ZlIEJhYmJhcidzIFNvY2lhbCBNZWRpYSAtIEluc3RhZ3JhbTpodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL2xvdmViYWJiYXIxLyBUd2l0dGVyOiBodHRwczovL3R3aXR0ZXIuY29tL2xvdmViYWJiYXIzIExpbmtlZEluOiBodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vbG92ZS1iYWJiYXItMzhhYjI4ODcvIE5pc2hpdC4uLg%3D%3D&shhk=%2FohbJOcgPALTpw5FIuehfL0uFp%2BGJjxoASBPzUeJXq8%3D&form=VDSHOT&shth=OSH.Ws1IgZf3gxPfN8xnUs63Yw" target ="_blank">
+  <img src="https://www.concettolabs.com/blog/wp-content/uploads/2019/05/flutter-mobile-web-desktop.jpg" width="160px" height="160px">
+  </a>
+  <br>
+
+  <iframe width="460" height="315" src="https://www.youtube.com/embed/BDRQxfWrozY" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ol>
+<br>
+<h2><u>For Complete tutorial lectures on Android visit the following page---></u> </h2>
+<a href=" https://www.bing.com/videos/search?view=detail&mid=D0E82405BDC824201BFFD0E82405BDC824201BFF&q=android+development&shtp=GetUrl&shid=fabf6739-5aca-430e-b104-c69f05da8ad7&shtk=QW5kcm9pZCBEZXZlbG9wbWVudCBUdXRvcmlhbCBmb3IgQWJzb2x1dGUgQmVnaW5uZXJzIHwgSGluZGkg7aC97bSlIHwgNSBQcm9qZWN0cyBpbiBBbmRyb2lkIHwgQW5ub3VuY2VtZW50&shdk=SGkgZ3V5cywgSSdtIHJlYWxseSBleGNpdGVkIHRvIGFubm91bmNlIHRoZSBtb3N0IGF3YWl0ZWQgQW5kcm9pZCBkZXZlbG9wbWVudCBzZXJpZXMuIFRoaXMgc2VyaWVzIGlzIHNwZWNpYWxseSBmb3IgYmVnaW5uZXJzIGluIEFuZHJvaWQgYW5kIHdpbGwgdGVhY2ggeW91IGhvdyB0byBidWlsZCBhbmQgZGVwbG95IEFuZHJvaWQgQXBwbGljYXRpb24gd2l0aCB2ZXJ5IGVmZmljaWVudCBtZXRob2RzLiBJbiB0aGlzIHZpZGVvIEknbSBnb2luZyB0byBjb3ZlciBzb21lIHZlcnkgYmFzaWMgdG9waWNzIGxpa2U6IDA6MDAgSW50cm9kdWN0aW9uIDA6NTggU2VyaWVzIHN0cnVjdHVyZSAzOjA5IERTICYgQWxnbyA%2FIDQ6MTcgUHJlLXJlcXVpc2l0ZXMgNzowNyBOYXRpdmUgb3IgSHlicmlkIEFwcHMgODozOSBXaG8gY2FuIGxlYXJuIDk6MjYgTGFwdG9wIHJlY29tbWVuZGF0aW9ucyAxMDoyNCBCZW5lZml0cyBvZiBBbmRyb2lkIERldmVsb3BtZW50IEluc3RhZ3JhbTouLi4%3D&shhk=QQpbg9ArwGzEcyTQwUh%2BOnYPOISCQrs%2FzIs%2Fkb%2Fi6Zc%3D&form=VDSHOT&shth=OSH.l4%252BHjrlPuDZ%252FEzr9dtWzLw" target="_blank">
+<img src="https://www.rootinfosol.com/sites/default/files/2018-03/best-android-development.jpg" alt="Anuj bhaiya youtube" style="width:290px;height:190px;">
+</a>
+<br>
+<br>
+<h2>Some Platforms that provide free Android courses for students.</h2>
+<a href="https://www.coursera.org/courses?query=android" target="_blank">
+<img src="https://th.bing.com/th/id/R8a065e947908a24d731ef8af4b9fd6b2?rik=APJ99Q6riRuK5A&riu=http%3a%2f%2fwww.techfaster.com%2fwp-content%2fuploads%2f2014%2f03%2fCoursera-Logo.png&ehk=HDcXynkheVnp2mqgncFmYC%2fWw9rpybs62PzQDT%2fAEC4%3d&risl=&pid=ImgRaw" alt="Anuj bhaiya youtube" style="width:290px;height:190px;">
+</a>
+<br>
+<br>
+<a href="https://www.udemy.com/join/login-popup/" target="_blank">
+  <img src="https://i.ytimg.com/vi/8s6UNBnXapM/maxresdefault.jpg" width="290px" height="190px">
+</a>
+<br>
+<br>
+<a href="https://www.udacity.com/" target="_blank">
+  <img src="https://th.bing.com/th/id/OIP.xtbNJ_vfFMqzG0wTr2LTCwHaD4?pid=ImgDet&rs=1" width="290px" height="190px">
+</a>
+<hr>
+<a href="https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/">Projects based on Android</a>
+<hr>
+<br>
+<br>
+<hr>
+ <h2>Some Important Tools for Developers</h2>
+
+<a href="https://github.com" target="_blank">
+  <img src="https://pngimg.com/uploads/github/github_PNG20.png" width="290px" height="190px">
+</a>
+<br>
+<br>
+<a href="https://in.linkedin.com" target="_blank">
+  <img src="https://th.bing.com/th/id/OIP.khiS7M2Io9LqhzJi6-m_ugHaDd?pid=ImgDet&rs=1" width="290px" height="190px">
+
+</a>
+<br>
+<hr>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+         
+
+                      
+                      
+
+
+</main>
+</div>
+</main>
+</body>
+</html>
